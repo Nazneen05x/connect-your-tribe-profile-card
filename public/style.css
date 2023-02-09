@@ -1,27 +1,48 @@
-/* body {
-  height: 100vh;
-  font-family: sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+/* <---- BASIC ELEMENTS ----> */
+
+body {
   display: flex;
   justify-content: center;
-  align-items: center;
-  color: black;
-  background-image: url(/purple.jpg);
+  margin-top: 5em;
+
+}
+
+main {
+  width: 375px;
+  height: 572px;
+  background: url(/purple.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
+
+/* <-- HEADER VISITEKAARTJE STYLING --> */
+
+section {
+  width: 304px;
+  height: 122px;
+  margin-top: 3em;
+  margin-left: 2.1em;
+  background-color: #FFFFFF;
+  border-radius: 7px;
+}
+
+/* <-- FOUR CARDS STYLING --> */
+
 article {
-  width: 50vw;
-  max-width: 25em;
-  min-width: 20em;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  box-shadow: 0 0 7px black;
-  border: 1px solid black;
-
-  height: 67.7vh;
-} */
-
-
+  width: 144px;
+  height: 133px;
+  background-color: #FFFFFF;
+  border-radius: 7px;
+  display: inline-flex;
+  margin-top: 2.1em;
+  margin-left: 2.1em;
+  margin-right: -1.4em;
+}
