@@ -3,15 +3,15 @@
   <main>
     <!-- HEADER VISITEKAARTJE -->
     <section class="HEADER_CARD">
-      <img src="/nazneen.jpg" alt="foto_van_mijzelf">
+      <img src="<%=member.avatar%>" alt="foto_van_mijzelf">
       <h1>
-        <%=member.name%>
+        <%=member.name + " " + member.surname%>
       </h1>
-      <h1>
-        <%=member.surname%>
-      </h1>
+    </section>  
 
-    </section>
+    <article class="bio">
+      <p class="bio_p"><%=member.bio.html%></p>
+    </article> 
 
     <!-- FOUR CARDS -->
     <article>
@@ -32,8 +32,10 @@
     <article>
       <img class="icon" src="/user.png" alt="icon_user" />
       <p class="connect">Let's connect</p>
-    </article>
+    </article> 
 
   </main>
+
+
 
   <%- include('./partials/foot') %>
