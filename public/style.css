@@ -48,9 +48,16 @@ h1 {
 }
 
 .bio{
+  position: absolute;
   height: 183px;
   width: 308px;
-  margin-top: 1em;
+  margin-top: -5em;
+  margin-left: -4em;
+  visibility: hidden;
+}
+
+.bio-visibility{
+  visibility: visible;
 }
 
 .bio_p{
