@@ -17,7 +17,7 @@
 Het doel van deze leertaak is het redesign van je visitekaartje op basis van een bestaande APi (whois). Je kunt op de button, om meer informatie te lezen over mij.
 
 ## Kenmerken 🖇️ 
-Deze visitekaartje is gemaakt met Node.js, Express, EJs, CSS en Javascript. Data uit de WHOIS API.
+Dit visitekaartje is gemaakt met Node.js, Express, EJs, CSS en Javascript. Data uit de WHOIS API.
 
 ## Installatie 🛠️ 
 1. Installeer Node 18.14.0 LTS
