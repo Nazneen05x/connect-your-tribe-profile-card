@@ -9,13 +9,13 @@
 body {
   display: flex;
   justify-content: center;
-  margin-top: 5em;
+  margin-top: 9em;
 
 }
 
 main {
   width: 375px;
-  height: 682px;
+  height: 503px;
   margin-top: -2em;
   background: url(/purple.jpg);
   background-size: cover;
@@ -66,6 +66,15 @@ h1 {
   margin-left: 0em;
   line-height: 1.5em;
   padding: 1em;
+}
+
+button{
+  margin-left: 11.5em;
+  border: none;
+  background-color: #4343A6;
+  color: white;
+  border-radius: 1em;
+  width: 102px;
 }
 
 
