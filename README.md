@@ -1,7 +1,8 @@
 > [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # ✨FDND-REDESIGN VISITEKAARTJE ✨
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+<img width="1440" alt="Scherm­afbeelding 2023-04-10 om 14 46 10" src="https://user-images.githubusercontent.com/112861261/230903955-47f8dd21-c746-4fb7-9a39-89f045db8a8e.png">
+
 
 ## Inhoudsopgave 📚 
 
@@ -13,18 +14,32 @@
   * [Licentie](#licentie)
 
 ## Beschrijving 📑 
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Het doel van deze leertaak is het redesign van je visitekaartje op basis van een bestaande APi (whois). Je kunt op de button, om meer informatie te lezen over mij.
 
 ## Kenmerken 🖇️ 
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+Dit visitekaartje is gemaakt met Node.js, Express, EJs, CSS en Javascript. Data uit de WHOIS API.
 
 ## Installatie 🛠️ 
+1. Installeer Node 18.14.0 LTS
+2. Fork deze leertaak
+3. Code klonen naar Github Desktop
+4. Code open in VScode of andere editor
+5. Terminal open
+6. Npm install (typen in je terminal, daarna enter druken)
+7. Npm start ( na het installeren, type je npm start in je terminal)
+8. Localhost:8000 (live link om je website te zien, link van de server)
+9. Project live zetten met cyclic
+
 
 ## Gebruik 📱
-
+Het visitekaartje kun je bekijken op alle schermen.
 ## Bronnen 🌐
+<ul>
+<li>https://whois.fdnd.nl</li>
+<li>https://www.figma.com</li>
+<li>https://www.google.com</li>
+<li>https://www.cyclic.sh/</li>
+</ul>
 
 ## Licentie 🔐🔏 
 
